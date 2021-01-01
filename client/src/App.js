@@ -1,18 +1,26 @@
-import React, { Component } from "react";
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
-
+import digimon from "./digimon.js"
+import digimonLine from "./digimonLine.js"
+///console.log(agumon)
 function App() {
   return (
-    <div className="App">
-      <div className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <h2>Welcome to React</h2>
-      </div>
-      <p className="App-intro">
-        To get started, edit <code>src/App.js</code> and save to reload.
-      </p>
+  <div>
+    <h1>DigiProject</h1>
+    {/* <h2>{digimon[0].name} - {digimon[0].level}</h2>
+    <img src = {digimon[0].img}></img>
+    <h3>{digimon[0].attack}!</h3> */}
+    <ul>
+        {digimon.map(digimon => {
+          return <div>
+             <h2>{digimon.name} - {digimon.level}</h2>
+    <img src = {digimon.img}></img>
+    <h3>{digimon.attack}!</h3>
+          </div>;
+        })}
+      </ul>
     </div>
+    
   );
 }
 
