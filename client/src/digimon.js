@@ -85,6 +85,9 @@ const chibickmon = new Fresh("Chibickmon", "Petit Sugar Plum", "https://wikimon.
 const chibomon = new Fresh("Chibomon", "Frothy Spit", "https://wikimon.net/images/thumb/d/df/Chicomon.jpg/120px-Chicomon.jpg")
 const conomon = new Fresh("Conomon", "San no Awa", "https://wikimon.net/images/thumb/2/20/Cocomon2.jpg/120px-Cocomon2.jpg")
 const cotsucomon = new Fresh("Cotsucomon", "Kottsun", "https://wikimon.net/images/thumb/0/02/Cotsucomon.jpg/120px-Cotsucomon.jpg")
+const datirimon = new Fresh("Datirimon", "San no Awa", "https://wikimon.net/images/thumb/d/df/Pipimon.jpg/120px-Pipimon.jpg")
+const dodomon = new Fresh("Dodomon", "Chisana Tetsu Tsubu", "https://wikimon.net/images/thumb/0/02/Dodomon.jpg/120px-Dodomon.jpg")
+const dokimon = new Fresh("Dokimon", "Bubbles", "https://wikimon.net/images/8/82/Dokimon.jpg")
 const leafmon = new Fresh("Leafmon", "Sansei no Awa", "https://wikimon.net/images/thumb/e/ea/Leafmon.jpg/120px-Leafmon.jpg")
 const nyokimon = new Fresh("Nyokimon", "Seed Cracker", "https://wikimon.net/images/thumb/e/e0/Nyokimon.jpg/120px-Nyokimon.jpg")
 const pabumon = new Fresh("Pabumon", "Bubbles", "https://wikimon.net/images/thumb/1/1f/Bubbmon.jpg/120px-Bubbmon.jpg")
@@ -97,8 +100,10 @@ const yukimiBotamon = new Fresh("YukimiBotamon", "Diamond Dust", "https://wikimo
 const yuramon = new Fresh("Yuramon", "Bubble Blow", "https://wikimon.net/images/thumb/5/5a/Yuramon.jpg/120px-Yuramon.jpg")
 //in-training
 const algomonIT = new InTraining("Algomon (In-Training)", "San no Awa", "https://wikimon.net/images/thumb/4/48/Algomon_baby2.jpg/120px-Algomon_baby2.jpg")
+const bibimon = new InTraining("Bibimon", "Bubbles", "https://wikimon.net/images/thumb/e/ec/Bibimon.jpg/120px-Bibimon.jpg")
 const bukamon = new InTraining("Bukamon", "Air Bubbles", "https://wikimon.net/images/thumb/7/73/Pukamon.jpg/120px-Pukamon.jpg")
 const demiVeemon = new InTraining("DemiVeemon", "Pop Attack", "https://wikimon.net/images/thumb/2/27/Chibimon.jpg/120px-Chibimon.jpg")
+const dorimon = new InTraining("Dorimon", "Metal Drop", "https://wikimon.net/images/thumb/f/f0/Dorimon.jpg/120px-Dorimon.jpg")
 const kakkinmon = new InTraining("Kakkinmon", "Kankan", "https://wikimon.net/images/thumb/9/90/Kakkinmon.jpg/120px-Kakkinmon.jpg")
 const kokomon = new InTraining("Kokomon", "Koko Crusher", "https://wikimon.net/images/thumb/3/3a/Chocomon.jpg/120px-Chocomon.jpg")
 const koromon = new InTraining("Koromon", "Bubble Blow", "https://wikimon.net/images/thumb/6/6e/Koromon.jpg/120px-Koromon.jpg" )
@@ -118,6 +123,7 @@ const agumon = new Rookie("Agumon", "Pepper Breath", "https://wikimon.net/images
 const algomonR = new Rookie("Algomon (Rookie)", "Brute Knuckle or Imprisonment", "https://wikimon.net/images/thumb/f/f6/Algomon_child.jpg/120px-Algomon_child.jpg")
 const armadillomon =  new Rookie("Armadillomon", "Diamond Shell", "https://wikimon.net/images/thumb/a/a6/Armadimon2.jpg/120px-Armadimon2.jpg")
 const biyomon = new Rookie("Biyomon", "Spiral Twister", "https://wikimon.net/images/thumb/d/d8/Piyomon.jpg/120px-Piyomon.jpg")
+const dorumon = new Rookie("Dorumon", "Metal Cannon", "https://wikimon.net/images/thumb/1/17/Dorumon.jpg/120px-Dorumon.jpg")
 const gabumon = new Rookie("Gabumon", "Blue Blaster", "https://wikimon.net/images/thumb/7/71/Gabumon.jpg/120px-Gabumon.jpg")
 const gomamon = new Rookie("Gomamon", "Fish Power", "https://wikimon.net/images/thumb/9/9b/Gomamon.jpg/120px-Gomamon.jpg")
 const hawkmon = new Rookie("Hawkmon", "Feather Strike", "https://wikimon.net/images/thumb/7/7f/Hawkmon.jpg/120px-Hawkmon.jpg")
@@ -125,6 +131,7 @@ const lopmon = new Rookie("Lopmon", "Tiny Twister", "https://wikimon.net/images/
 const ludomon = new Rookie("Rookie", "Wall Rake", "https://wikimon.net/images/thumb/0/03/Ludomon.jpg/120px-Ludomon.jpg")
 const patamon = new Rookie("Patamon", "Boom Bubble", "https://wikimon.net/images/thumb/7/7d/Patamon.jpg/120px-Patamon.jpg")
 const palmon = new Rookie("Palmon", "Poison Ivy", "https://wikimon.net/images/thumb/6/61/Palmon.jpg/120px-Palmon.jpg")
+const pulsemon = new Rookie("Pulsemon", "Elec Rush", "https://wikimon.net/images/thumb/2/23/Pulsemon.jpg/120px-Pulsemon.jpg")
 const salamon = new Rookie("Salamon", "Puppy Howling", "https://wikimon.net/images/thumb/1/10/Plotmon.jpg/120px-Plotmon.jpg")
 const tentomon = new Rookie("Tentomon", "Super Shocker", "https://wikimon.net/images/thumb/a/ac/Tentomon.jpg/120px-Tentomon.jpg")
 const veemon = new Rookie("Veemon", "Vee Headbutt", "https://wikimon.net/images/thumb/2/23/Vmon.jpg/120px-Vmon.jpg")
@@ -135,6 +142,8 @@ const angemon = new Champion("Angemon", "Hand of Fate", "https://wikimon.net/ima
 const ankylomon = new Champion("Ankylomon", "Tail Hammer", "https://wikimon.net/images/thumb/e/e0/Ankylomon2.jpg/120px-Ankylomon2.jpg")
 const aquilamon = new Champion("Aquilamon", "Grand Horn", "https://wikimon.net/images/thumb/b/b1/Aquilamon2.jpg/120px-Aquilamon2.jpg")
 const birdramon = new Champion("Birdramon", "Meteor Wing", "https://wikimon.net/images/thumb/0/06/Birdramon.jpg/120px-Birdramon.jpg")
+const bulkmon = new Champion("Bulkmon", "None", "https://wikimon.net/images/thumb/f/f0/Bulkmon.jpg/120px-Bulkmon.jpg")
+const dorugamon = new Champion("Dorugamon", "Power Metal", "https://wikimon.net/images/thumb/e/e3/Dorugamon.jpg/120px-Dorugamon.jpg")
 const exVeemon = new Champion("ExVeemon", "Vee-Laser", "https://wikimon.net/images/thumb/6/6a/Xvmon.jpg/120px-Xvmon.jpg")
 const garurumon = new Champion("Garurumon", "Howling Blaster", "https://wikimon.net/images/thumb/5/57/Garurumon.jpg/120px-Garurumon.jpg")
 const gatomon = new Champion("Gatomon", "Lightning Paw", "https://wikimon.net/images/thumb/9/95/Tailmon.jpg/120px-Tailmon.jpg")
@@ -153,6 +162,8 @@ const algomonU = new Ultimate("Algomon (Ultimate)", "Elimination Line, Imprisonm
 const andiramonE = new Ultimate("Andiramon (Evil)","Treasure Axe", "https://wikimon.net/images/thumb/4/41/Andiramon.jpg/120px-Andiramon.jpg")
 const andiramonG = new Ultimate("Andiramon (Good)", "Bunny Blades", "https://wikimon.net/images/thumb/b/b8/Andiramon_data.jpg/120px-Andiramon_data.jpg")
 const angewomon = new Ultimate("Angewomon", "Celestial Arrow", "https://wikimon.net/images/thumb/5/5a/Angewomon.jpg/120px-Angewomon.jpg")
+const boutmon = new Ultimate("Boutmon", "None", "https://wikimon.net/images/thumb/6/6b/Boutmon.jpg/101px-Boutmon.jpg")
+const doruGreymon = new Ultimate("DoruGreymon", "Metal Meteor", "https://wikimon.net/images/thumb/a/a6/Doruguremon.jpg/120px-Doruguremon.jpg")
 const garudamon = new Ultimate("Garudamon", "Shadow Wing", "https://wikimon.net/images/thumb/c/c6/Garudamon.jpg/120px-Garudamon.jpg")
 const jewelBeemon = new Ultimate("JewelBeemon", "Spike Buster", "https://wikimon.net/images/thumb/7/7f/Jewelbeemon2.jpg/120px-Jewelbeemon2.jpg")
 const lillymon = new Ultimate("Lillymon", "Flower Cannon or Flower Wreath", "https://wikimon.net/images/thumb/a/a8/Lilimon.jpg/120px-Lilimon.jpg")
@@ -167,14 +178,17 @@ const wereGarurumon = new Ultimate("WereGarurumon", "Wolf Claw or Garuru Kick", 
 const zudomon = new Ultimate("Zudomon", "Vulcan's Hammer", "https://wikimon.net/images/thumb/b/b3/Zudomon.jpg/120px-Zudomon.jpg")
 //mega
 const algomonM = new Mega("Algomon (Mega)", "Distorton Line or Judecca Cannon", "https://wikimon.net/images/thumb/3/36/Algomon_ultimate.jpg/120px-Algomon_ultimate.jpg")
+const alphamon = new Mega("Alphamon", "Blade of the Dragon King or Digitize Soul", "https://wikimon.net/images/thumb/2/29/Alphamon.jpg/120px-Alphamon.jpg")
 const banchoStingmon = new Mega("BanchoStingmon", "Bloody Finish or Redbutt", "https://wikimon.net/images/thumb/5/51/Banchostingmon.jpg/120px-Banchostingmon.jpg")
 const bryweLudramon = new Mega("BryweLudramon", "Guren Storm or Blast Smash", "https://wikimon.net/images/thumb/e/e5/Bryweludramon.jpg/120px-Bryweludramon.jpg")
 const cherubimonE = new Mega("Cherubimon (Evil)", "Lightning Spear", "https://wikimon.net/images/thumb/1/1c/Cherubimon-vice.jpg/120px-Cherubimon-vice.jpg")
 const cherubimonG = new Mega("Cherubimon (Good)", "Heaven's Judgement", "https://wikimon.net/images/thumb/4/46/Cherubimon.jpg/120px-Cherubimon.jpg")
+const dorugoramon = new Mega("Dorugoramon", "Brave Metal", "https://wikimon.net/images/thumb/6/63/Dorugoramon.jpg/120px-Dorugoramon.jpg")
 const herculesKabuterimon = new Mega("HerculesKabuterimon", "Giga Blaster", "https://wikimon.net/images/thumb/f/f3/Heraklekabuterimon.jpg/120px-Heraklekabuterimon.jpg" )
 const hououmon = new Mega("Hououmon", "Starlight Explosion", "https://wikimon.net/images/thumb/1/10/Hououmon.jpg/120px-Hououmon.jpg")
 const imperialdramonDM = new Mega("Imperialdramon: Dragon Mode", "Mega Death", "https://wikimon.net/images/thumb/5/5c/Imperialdramon.jpg/120px-Imperialdramon.jpg")
 const imperialdramonFM = new Mega("Imperialdramon: Fighter Mode", "Positron Laser", "https://wikimon.net/images/thumb/1/1c/Imperialdramon_fighter.jpg/120px-Imperialdramon_fighter.jpg")
+const kazuchimon = new Mega("Kazuchimon", "None", "https://wikimon.net/images/thumb/d/d0/Kadutimon.jpg/98px-Kadutimon.jpg")
 const magnadramon = new Mega("Magnadramon",  "Fire Tornado", "https://wikimon.net/images/thumb/2/24/Holydramon.jpg/120px-Holydramon.jpg")
 const mastemon = new Mega("Mastemon", "Chaos Degradation", "https://wikimon.net/images/thumb/0/0d/Mastemon2.jpg/120px-Mastemon2.jpg")
 const metalGarurumon = new Mega("MetalGarurumon", "Metal Wolf Claw or Garuru Tomahawk", "https://wikimon.net/images/thumb/0/0d/Metalgarurumon2.jpg/120px-Metalgarurumon2.jpg" )
@@ -187,7 +201,8 @@ const valkyrimon = new Mega("Valkyrimon", "Fenrir Sword", "https://wikimon.net/i
 const vikemon = new Mega("Vikemon", "Artic Blizzard", "https://wikimon.net/images/thumb/7/77/Vikemon.jpg/120px-Vikemon.jpg")
 const warGreymon = new Mega("WarGreymon", "Terra Force or Great Tornado", "https://wikimon.net/images/thumb/9/94/Wargreymon.jpg/120px-Wargreymon.jpg")
 //ultra
-const imperialdramonPM = new Mega("Imperialdramon: Paladin Mode", "Omni Sword", "https://wikimon.net/images/thumb/c/cb/Imperialdramon_paladin.jpg/120px-Imperialdramon_paladin.jpg")
+const alphamonOuryuken = new Ultra("Alphamon Ouryuken", "Ultimate Ouryuken", "https://wikimon.net/images/thumb/3/39/Alphamon_ouryuken.jpg/120px-Alphamon_ouryuken.jpg")
+const imperialdramonPM = new Ultra("Imperialdramon: Paladin Mode", "Omni Sword", "https://wikimon.net/images/thumb/c/cb/Imperialdramon_paladin.jpg/120px-Imperialdramon_paladin.jpg")
 const omegamon = new Ultra("Omegamon", "Garuru Cannon or Grey Sword", "https://wikimon.net/images/thumb/7/78/Omegamon.jpg/120px-Omegamon.jpg")
 const ordinemon = new Ultra("Ordinemon", "End of the World", "https://wikimon.net/images/thumb/0/03/Ordinemon.jpg/120px-Ordinemon.jpg")
 const rafflesimon = new Ultra("Rafflesimon", "Ballet Gun", "https://wikimon.net/images/thumb/c/c1/Rafflesimon.jpg/120px-Rafflesimon.jpg")
@@ -203,6 +218,9 @@ export const digimon =
         chibomon, demiVeemon, veemon, exVeemon, paildramon, imperialdramonDM, imperialdramonFM, imperialdramonPM, veedramon, aeroVeedramon, ulforceVeedramon,
         conomon, kokomon, lopmon, turuiemon, andiramonG, cherubimonG, wendigomon, andiramonE, cherubimonE,  
         cotsucomon, kakkinmon, ludomon, tiaLudomon, raijiLudomon, bryweLudramon, ragnaLordmon,
+        datirimon,
+        dodomon, dorimon, dorumon, dorugamon, doruGreymon, alphamon, alphamonOuryuken, dorugoramon,
+        dokimon, bibimon, pulsemon, bulkmon, boutmon, kazuchimon,
         leafmon, minomon, wormmon, stingmon, jewelBeemon, banchoStingmon,
         nyokimon, yokomon, biyomon, birdramon, garudamon, hououmon,
         pabumon, motimon, tentomon, kabuterimon, megaKabuterimon, herculesKabuterimon, tyrantKabuterimon,
