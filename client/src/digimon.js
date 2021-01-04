@@ -168,9 +168,22 @@ const yaamon = new InTraining("Yaamon", "Rolling Black", "https://wikimon.net/im
 const yokomon = new InTraining("Yokomon", "Bubbles", "https://wikimon.net/images/thumb/a/a4/Pyocomon.jpg/120px-Pyocomon.jpg")
 //rookie
 const agumon = new Rookie("Agumon", "Pepper Breath", "https://wikimon.net/images/thumb/7/72/Agumon.jpg/120px-Agumon.jpg")
+const agumonExpert = new Rookie("Agumon Expert", "Baby Flame", "https://wikimon.net/images/thumb/1/1a/Agumon_hakase.jpg/120px-Agumon_hakase.jpg")
 const algomonR = new Rookie("Algomon (Rookie)", "Brute Knuckle or Imprisonment", "https://wikimon.net/images/thumb/f/f6/Algomon_child.jpg/120px-Algomon_child.jpg")
 const armadillomon =  new Rookie("Armadillomon", "Diamond Shell", "https://wikimon.net/images/thumb/a/a6/Armadimon2.jpg/120px-Armadimon2.jpg")
+const arcadiamonR = new Rookie("Arcadiamon (Rookie)", "Erase Sickle and Soul Absorbtion", "https://wikimon.net/images/thumb/0/09/Arkadimon_child.jpg/120px-Arkadimon_child.jpg")
+const aruraumon = new Rookie("Aruraumon", "Nemesis Ivy", "https://wikimon.net/images/thumb/3/3e/Alraumon.jpg/120px-Alraumon.jpg")
+const bacomon = new Rookie("Bacomon", "Gum Roll", "https://wikimon.net/images/thumb/d/d5/Bacomon.jpg/120px-Bacomon.jpg")
+const bearmon = new Rookie("Bearmon", "Bear Fist", "https://wikimon.net/images/thumb/8/8f/Bearmon2.jpg/120px-Bearmon2.jpg")
+const betamon = new Rookie("Betamon", "Electric Shock", "https://wikimon.net/images/thumb/7/77/Betamon.jpg/120px-Betamon.jpg")
 const biyomon = new Rookie("Biyomon", "Spiral Twister", "https://wikimon.net/images/thumb/d/d8/Piyomon.jpg/120px-Piyomon.jpg")
+const blackAgumon = new Rookie("BlackAgumon", "Pepper Breath", "https://wikimon.net/images/thumb/9/91/Agumon_black.jpg/120px-Agumon_black.jpg")
+const blackGabumon = new Rookie("BlackGabumon" , "Petit Fire", "https://wikimon.net/images/thumb/6/6f/Gabumon_black.jpg/120px-Gabumon_black.jpg")
+const blackGuilmon = new Rookie("BlackGuilmon","Rock Crusher","https://wikimon.net/images/thumb/a/ab/Blackguilmon_recolor.jpg/120px-Blackguilmon_recolor.jpg")
+const blucomon = new Rookie("Blucomon","Wēifēngbīngjiàn", "https://wikimon.net/images/thumb/4/40/Blucomon.jpg/120px-Blucomon.jpg")
+const bokomon = new Rookie("Bokomon", "Book of Knowledge", "https://wikimon.net/images/thumb/7/7e/Bokomon.jpg/120px-Bokomon.jpg")
+const burgermon = new Rookie("Burgermon", "Delicious Patty", "https://wikimon.net/images/thumb/2/20/Burgemon2.jpg/120px-Burgemon2.jpg")
+const bushiAgumon = new Rookie("BushiAgumon" , "Chou Teisoku Ichimonji-giri or Chou Kousoku Ichimonji-giri", "https://wikimon.net/images/thumb/8/83/BushiAgumon.jpg/120px-BushiAgumon.jpg")
 const dorumon = new Rookie("Dorumon", "Metal Cannon", "https://wikimon.net/images/thumb/1/17/Dorumon.jpg/120px-Dorumon.jpg")
 const gabumon = new Rookie("Gabumon", "Blue Blaster", "https://wikimon.net/images/thumb/7/71/Gabumon.jpg/120px-Gabumon.jpg")
 const gomamon = new Rookie("Gomamon", "Fish Power", "https://wikimon.net/images/thumb/9/9b/Gomamon.jpg/120px-Gomamon.jpg")
@@ -263,10 +276,10 @@ const ragnaLordmon = new Ultimate("RagnaLordmon", "Direct Smasher, Ignition Prom
 const tyrantKabuterimon = new Ultra("TyrantKabuterimon", "Shine of Bee", "https://wikimon.net/images/thumb/9/91/Tyrantkabuterimon.jpg/120px-Tyrantkabuterimon.jpg" )
 export const digimon =
     [
-        algomonF, algomonIT, algomonR, algomonC, algomonU, algomonM, arcadiamonIT,
+        algomonF, algomonIT, algomonR, algomonC, algomonU, algomonM, arcadiamonIT, arcadiamonR,
         bombmon,
         bommon, missimon,
-        //botamon, koromon, agumon, greymon, metalGreymon, warGreymon, omegamon,
+        botamon, koromon, agumon, greymon, metalGreymon, warGreymon, omegamon, agumonExpert, blackAgumon, bushiAgumon,
         chibickmon, pickmon,
         //chibomon, demiVeemon, veemon, exVeemon, paildramon, imperialdramonDM, imperialdramonFM, imperialdramonPM, veedramon, aeroVeedramon, ulforceVeedramon,
         conomon, kokomon, lopmon, turuiemon, andiramonG, cherubimonG, wendigomon, andiramonE, cherubimonE, moonmon,  
@@ -275,33 +288,33 @@ export const digimon =
         //dodomon, dorimon, dorumon, dorugamon, doruGreymon, alphamon, alphamonOuryuken, dorugoramon,
         //dokimon, bibimon, pulsemon, bulkmon, boutmon, kazuchimon,
         fufumon, kyokyomon,
-        jyarimon, gigimon, guilmon, growlmon, warGrowlmon, gallantmon, megidramon,
+        jyarimon, gigimon, blackGuilmon, guilmon, growlmon, warGrowlmon, gallantmon, megidramon,
         keemon, yaamon,
         ketomon, hopmon,
         kuramon, tsumemon,
         metalKoromon, kapurimon, monimon,
-        mokumon, demiMeramon, koZenimon,
+        mokumon, demiMeramon, koZenimon, bacomon,
         //leafmon, minomon, wormmon, stingmon, jewelBeemon, banchoStingmon,
         //nyokimon, yokomon, biyomon, birdramon, garudamon, hououmon,
-        //pabumon, motimon, tentomon, kabuterimon, megaKabuterimon, herculesKabuterimon, tyrantKabuterimon,
+        pabumon, motimon, bokomon, tentomon, kabuterimon, megaKabuterimon, herculesKabuterimon, tyrantKabuterimon,
         pafumon, kyaromon,
         paomon, xiaomon,
         petitmon, babydmon,
         //pichimon, bukamon, gomamon, ikkakumon, zudomon, vikemon,
-        popomon, frimon, sunmon,
+        popomon, frimon, bearmon, sunmon,
         //poyomon, tokomon, patamon, angemon, magnaAngemon, seraphimon,
-        punimon, tsunomon, gabumon, garurumon, wereGarurumon, metalGarurumon, omegamon, wanyamon,
+        punimon, tsunomon, blackGabumon, blucomon, gabumon, garurumon, wereGarurumon, metalGarurumon, omegamon, wanyamon,
         pupumon, puroromon,
         //pururumon, poromon, hawkmon, aquilamon, silphymon, valkyrimon,
         pusumon, pusurimon,
         puttimon, cupimon,
-        puwamon, chicchimon, pinamon, torikaraBallmon,
+        puwamon, chicchimon, pinamon, torikaraBallmon, burgermon,
         relemon, viximon,
         sakumon, sakuttomon,
-        //tsubumon, upamon, armadillomon, ankylomon, shakkoumon, slashAngemon,
+        tsubumon, upamon, armadillomon, ankylomon, shakkoumon, slashAngemon, betamon,
         //yukimiBotamon, nyaromon, salamon, gatomon, angewomon, mastemon, ophanimon, ordinemon, magnadramon,
-        yuramon, budmon, rafflesimon, tanemon, palmon, togemon, lillymon, rosemon, rafflesimon,
+        yuramon, budmon, rafflesimon, tanemon, aruraumon,palmon, togemon, lillymon, rosemon, rafflesimon,
         zerimon, gummymon,
-        zurumon, pagumon,
+        zurumon, pagumon, 
     ]
 export default digimon;
