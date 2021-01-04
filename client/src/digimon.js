@@ -126,6 +126,7 @@ const budmon = new InTraining("Budmon", "Frothy Spit", "https://wikimon.net/imag
 const bukamon = new InTraining("Bukamon", "Air Bubbles", "https://wikimon.net/images/thumb/7/73/Pukamon.jpg/120px-Pukamon.jpg")
 const chapmon = new InTraining("Chapmon", "Foam Shower", "https://wikimon.net/images/thumb/1/1c/Chapmon.jpg/120px-Chapmon.jpg")
 const chicchimon = new InTraining("Chicchimon", "Frothy Spit", "https://wikimon.net/images/thumb/7/7f/Chicchimon.jpg/120px-Chicchimon.jpg")
+const chikurimon = new InTraining("Chikurimon", "Final Chikurimon","https://wikimon.net/images/thumb/7/78/Chikurimon.jpg/120px-Chikurimon.jpg")
 const cupimon = new InTraining("Cupimon", "Angel Ring", "https://wikimon.net/images/thumb/0/06/Cupimon.jpg/120px-Cupimon.jpg")
 const demiMeramon = new InTraining("DemiMeramon", "Flame Shot", "https://wikimon.net/images/thumb/c/c6/Petimeramon.jpg/120px-Petimeramon.jpg")
 const demiVeemon = new InTraining("DemiVeemon", "Pop Attack", "https://wikimon.net/images/thumb/2/27/Chibimon.jpg/120px-Chibimon.jpg")
@@ -184,6 +185,13 @@ const blucomon = new Rookie("Blucomon","Wēifēngbīngjiàn", "https://wikimon.n
 const bokomon = new Rookie("Bokomon", "Book of Knowledge", "https://wikimon.net/images/thumb/7/7e/Bokomon.jpg/120px-Bokomon.jpg")
 const burgermon = new Rookie("Burgermon", "Delicious Patty", "https://wikimon.net/images/thumb/2/20/Burgemon2.jpg/120px-Burgemon2.jpg")
 const bushiAgumon = new Rookie("BushiAgumon" , "Chou Teisoku Ichimonji-giri or Chou Kousoku Ichimonji-giri", "https://wikimon.net/images/thumb/8/83/BushiAgumon.jpg/120px-BushiAgumon.jpg")
+const candlemon = new Rookie("Candlemon", "Lava Loogie", "https://wikimon.net/images/thumb/5/59/Candmon.jpg/120px-Candmon.jpg")
+const chuumon = new Rookie("Chuumon", "Cheese Bomb", "https://wikimon.net/images/thumb/e/ec/Tyumon.jpg/120px-Tyumon.jpg")
+const clearAgumon = new Rookie("ClearAgumon", "Pepper Breath", "https://wikimon.net/images/thumb/d/db/Clearagumon.jpg/120px-Clearagumon.jpg")
+const commandramon = new Rookie("Commandramon", "M16 Assassin", "https://wikimon.net/images/thumb/a/a0/Commandramon.jpg/120px-Commandramon.jpg")
+const coronamon = new Rookie("Coronamon", "Corona-knuckle", "https://wikimon.net/images/thumb/b/bb/Coronamon_20th.jpg/120px-Coronamon_20th.jpg")
+const crabmon = new Rookie("Crabmon", "Scissor Magic", "https://wikimon.net/images/thumb/7/78/Ganimon.jpg/120px-Ganimon.jpg")
+const cutemon = new Rookie("Cutemon", "Healing Glow", "https://wikimon.net/images/thumb/3/3a/Cutemon4.jpg/120px-Cutemon4.jpg")
 const dorumon = new Rookie("Dorumon", "Metal Cannon", "https://wikimon.net/images/thumb/1/17/Dorumon.jpg/120px-Dorumon.jpg")
 const gabumon = new Rookie("Gabumon", "Blue Blaster", "https://wikimon.net/images/thumb/7/71/Gabumon.jpg/120px-Gabumon.jpg")
 const gomamon = new Rookie("Gomamon", "Fish Power", "https://wikimon.net/images/thumb/9/9b/Gomamon.jpg/120px-Gomamon.jpg")
@@ -277,14 +285,14 @@ const tyrantKabuterimon = new Ultra("TyrantKabuterimon", "Shine of Bee", "https:
 export const digimon =
     [
         algomonF, algomonIT, algomonR, algomonC, algomonU, algomonM, arcadiamonIT, arcadiamonR,
-        bombmon,
-        bommon, missimon,
-        botamon, koromon, agumon, greymon, metalGreymon, warGreymon, omegamon, agumonExpert, blackAgumon, bushiAgumon,
+        bombmon, chikurimon,
+        bommon, missimon, commandramon,
+        botamon, koromon, agumon, greymon, metalGreymon, warGreymon, omegamon, agumonExpert, blackAgumon, bushiAgumon, clearAgumon, 
         chibickmon, pickmon,
         //chibomon, demiVeemon, veemon, exVeemon, paildramon, imperialdramonDM, imperialdramonFM, imperialdramonPM, veedramon, aeroVeedramon, ulforceVeedramon,
-        conomon, kokomon, lopmon, turuiemon, andiramonG, cherubimonG, wendigomon, andiramonE, cherubimonE, moonmon,  
+        conomon, kokomon, cutemon, lopmon, turuiemon, andiramonG, cherubimonG, wendigomon, andiramonE, cherubimonE, moonmon,  
         //cotsucomon, kakkinmon, ludomon, tiaLudomon, raijiLudomon, bryweLudramon, ragnaLordmon,
-        datirimon, chapmon,
+        datirimon, chapmon, crabmon,
         //dodomon, dorimon, dorumon, dorugamon, doruGreymon, alphamon, alphamonOuryuken, dorugoramon,
         //dokimon, bibimon, pulsemon, bulkmon, boutmon, kazuchimon,
         fufumon, kyokyomon,
@@ -293,7 +301,7 @@ export const digimon =
         ketomon, hopmon,
         kuramon, tsumemon,
         metalKoromon, kapurimon, monimon,
-        mokumon, demiMeramon, koZenimon, bacomon,
+        mokumon, demiMeramon, candlemon ,koZenimon, bacomon,
         //leafmon, minomon, wormmon, stingmon, jewelBeemon, banchoStingmon,
         //nyokimon, yokomon, biyomon, birdramon, garudamon, hououmon,
         pabumon, motimon, bokomon, tentomon, kabuterimon, megaKabuterimon, herculesKabuterimon, tyrantKabuterimon,
@@ -301,7 +309,7 @@ export const digimon =
         paomon, xiaomon,
         petitmon, babydmon,
         //pichimon, bukamon, gomamon, ikkakumon, zudomon, vikemon,
-        popomon, frimon, bearmon, sunmon,
+        popomon, frimon, bearmon, sunmon, coronamon,
         //poyomon, tokomon, patamon, angemon, magnaAngemon, seraphimon,
         punimon, tsunomon, blackGabumon, blucomon, gabumon, garurumon, wereGarurumon, metalGarurumon, omegamon, wanyamon,
         pupumon, puroromon,
@@ -315,6 +323,6 @@ export const digimon =
         //yukimiBotamon, nyaromon, salamon, gatomon, angewomon, mastemon, ophanimon, ordinemon, magnadramon,
         yuramon, budmon, rafflesimon, tanemon, aruraumon,palmon, togemon, lillymon, rosemon, rafflesimon,
         zerimon, gummymon,
-        zurumon, pagumon, 
+        zurumon, pagumon, chuumon,
     ]
 export default digimon;
